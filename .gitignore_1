@@ -1,0 +1,18 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Fitted model (large binary, regenerate with the notebook)
+outputs/models/
+
+# Tableau extracts and backups
+*.hyper
+*.twbr
+
+# OS / editors
+.DS_Store
+Thumbs.db

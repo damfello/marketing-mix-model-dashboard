@@ -1,0 +1,21 @@
+[project]
+name = "marketing-mix-model-dashboard"
+version = "0.1.0"
+description = "A Market Mix Modeling dashboard project using Google Meridian"
+readme = "README.md"
+authors = [
+    { name = "Duvan Fruto", email = "damfello@gmail.com" }
+]
+requires-python = "==3.12.*"
+dependencies = [
+    "google-meridian",
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.10.9",
+    "numpy",
+    "pandas",
+    "seaborn>=0.13.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"

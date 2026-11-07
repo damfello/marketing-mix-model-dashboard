@@ -1,0 +1,20 @@
+category,check,value,target,status,model_run
+Convergence,Max R-hat (all parameters),1.032804117169117,< 1.1 (WARN < 1.2),PASS,full | knots=13 | seed=42
+Convergence,Max R-hat (ROI parameters),1.01,< 1.05,PASS,full | knots=13 | seed=42
+Convergence,Min bulk ESS (ROI parameters),528.0,> 400 (WARN > 100),PASS,full | knots=13 | seed=42
+Convergence,Divergent transitions (%),1.925,< 1%,WARN,full | knots=13 | seed=42
+Fit,National R² (all data),0.49777561576192353,> 0.5,FAIL,full | knots=13 | seed=42
+Fit,National wMAPE (all data),0.038539836476032215,< 0.05,PASS,full | knots=13 | seed=42
+Fit,Geo R² (holdout),0.7509210305491983,> 0.7,PASS,full | knots=13 | seed=42
+Fit,Geo wMAPE (holdout),0.20989310069881773,< 0.25,PASS,full | knots=13 | seed=42
+Fit,Overfitting gap: geo wMAPE holdout - train,0.008846386946385676,< 0.03,PASS,full | knots=13 | seed=42
+Review,Meridian review overall status,,PASS,PASS,full | knots=13 | seed=42
+Review,Meridian health score,94.01952156329766,> 70,PASS,full | knots=13 | seed=42
+Review,Check: ConvergenceCheckResult,,PASS,PASS,full | knots=13 | seed=42
+Review,Check: BaselineCheckResult,,PASS,PASS,full | knots=13 | seed=42
+Review,Check: BayesianPPPCheckResult,,PASS,PASS,full | knots=13 | seed=42
+Review,Check: GoodnessOfFitCheckResult,,PASS,PASS,full | knots=13 | seed=42
+Review,Check: PriorPosteriorShiftCheckResult,,PASS,PASS,full | knots=13 | seed=42
+Review,Check: ImplausibleROICheckResult,,PASS,PASS,full | knots=13 | seed=42
+Review,Check: HighVarianceCheckResult,,PASS,PASS,full | knots=13 | seed=42
+Review,Check: PotentialBiasCheckResult,,PASS,PASS,full | knots=13 | seed=42
