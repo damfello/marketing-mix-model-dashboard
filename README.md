@@ -1,6 +1,6 @@
 # Marketing Budget Allocation Planner
 
-A Bayesian Marketing Mix Model (MMM) built with Merdian Framework that answers one question: **where should the next marketing euro go?** Its results power an interactive Tableau dashboard.
+A Bayesian Marketing Mix Model (MMM) built with Meridian Framework that answers one question: **where should the next marketing euro go?** Its results power an interactive Tableau dashboard.
 
 **[View the live dashboard on Tableau Public](https://public.tableau.com/app/profile/duvan.fruto/viz/MMM-DashbaordFinal/BudgetAllocationPlanner)**
 
